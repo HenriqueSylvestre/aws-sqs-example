@@ -1,11 +1,6 @@
 <configuration>
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-<!--            <layout class="logging.MaskingPatternLayout">-->
-<!--                <maskPattern>\"cpf\"\s*:\s*\"(.*?)\"</maskPattern> &lt;!&ndash; CPF JSON pattern &ndash;&gt;-->
-<!--                <maskPattern>\"conta\"\s*:\s*\"(.*?)\"</maskPattern> &lt;!&ndash; Conta JSON pattern &ndash;&gt;-->
-<!--                <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger - %msg%n</pattern>-->
-<!--            </layout>-->
         </encoder>
     </appender>
 
